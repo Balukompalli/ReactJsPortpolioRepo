@@ -1,6 +1,7 @@
 import { render } from "@testing-library/react";
 import React, { Component } from "react";
 import Projects from "./Projects";
+import SocialProfiles  from "./SocialProfiles";
 
 class App extends Component{
 	state = {dispayBio: false};
@@ -16,7 +17,6 @@ class App extends Component{
 		this.setState({displayBio : !this.state.displayBio})
 		//this.state.displayBio = !this.state.displayBio;
 	}
-	
 	
 	render() {
 				
@@ -42,6 +42,8 @@ class App extends Component{
 
 			<hr/>
 			<Projects />
+			<hr/>
+			<SocialProfiles/>
 		</div>
 		);
 	}	
