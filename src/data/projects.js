@@ -7,21 +7,21 @@ const PROJECTS = [
 		id : 1,
 		title : 'Example React Application',
 		description : 'A react app that built for  js and web dev concepts',
-		link: '',
+		link: 'https://github.com/Balukompalli/ReactJsPortpolioRepo',
 		image: project1
 	},
 	{
 		id : 2,
 		title : 'My Project 2',
 		description : 'A react app that built for  js and web dev concepts',
-		link: '',
+		link: 'https://github.com/Balukompalli/ReactJsPortpolioRepo',
 		image: project2
 	},
 	{
 		id : 3,
 		title : 'My Project3',
 		description : 'A react app that built for  js and web dev concepts',
-		link: '',
+		link: 'https://github.com/Balukompalli/ReactJsPortpolioRepo',
 		image: project3
 		
 	},

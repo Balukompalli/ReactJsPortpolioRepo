@@ -4,8 +4,16 @@ import PROJECTS from "./data/projects";
 class Project extends Component {
 	render() {
 		console.log('this.props', this.props);
+		
+		const {title, image, description, link } = this.props.project;
+		
 		return (
-			<div>{this.props.project.title}</div>
+			<div style={{display:'inline-block', width:360, height:30, margin:10 }}>
+				<h3>{title}</h3>
+				<img src={image} alt='profile' style={{width:150, height:150}}/>
+				<p>{description}</p>
+				<a href={link}>{link}</a>
+			</div>
 		)
 	}
 }
