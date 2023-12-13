@@ -1,5 +1,6 @@
 import { render } from "@testing-library/react";
 import React, { Component } from "react";
+import Projects from "./Projects";
 
 class App extends Component{
 	state = {dispayBio: false};
@@ -38,6 +39,8 @@ class App extends Component{
 					 </div>
 					)
 				}
+				<hr/>
+				<Projects/>
 			</div>
 		);
 	}	

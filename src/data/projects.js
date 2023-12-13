@@ -4,18 +4,21 @@ import project3 from '../assets/project3.png';
 
 const PROJECTS = [
 	{
+		id : 1,
 		title : 'Example React Application',
 		description : 'A react app that built for  js and web dev concepts',
 		link: '',
 		image: project1
 	},
 	{
+		id : 2,
 		title : 'My Project 2',
 		description : 'A react app that built for  js and web dev concepts',
 		link: '',
 		image: project2
 	},
 	{
+		id : 3,
 		title : 'My Project3',
 		description : 'A react app that built for  js and web dev concepts',
 		link: '',
@@ -24,3 +27,5 @@ const PROJECTS = [
 	},
 
 ];
+
+export default PROJECTS;
