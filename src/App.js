@@ -39,9 +39,10 @@ class App extends Component{
 					 </div>
 					)
 				}
+
 			<hr/>
 			<Projects />
-			</div>
+		</div>
 		);
 	}	
 }
