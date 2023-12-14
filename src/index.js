@@ -7,6 +7,27 @@ import './index.css';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(<App/>);
    
+   /*new Promise((resolve, reject) => {
+	  return reject(new Error('No bears'));
+	  
+	  setTimeout(()=> {
+	  console.log('Bears');
+	  resolve("Bears,Beets, Battlestar Galactica"); 
+   		},5000);
+    
+   })
+   .then(quote=> {
+	   setTimeout( ()=>{
+		   console.log("quote:",quote);
+	//console.log('Beets');
+    //console.log('Battlestar galacctica');
+	   },3000)
+    	   
+   })
+   .catch(error => console.log('error', error));*/
+        
+
+       
 //ReactDOM.render(<App/>, document.getElementById('root'));
 
 /*class Animal {
