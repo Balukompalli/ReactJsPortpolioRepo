@@ -13,6 +13,8 @@
     "build": "parcel build src/index.html",
     "start": "npm run build && live-server dist --port=4000"
   },
+  
+  
   "devDependencies": {
     "process": "^0.11.10"
   }
