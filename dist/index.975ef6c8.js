@@ -27125,6 +27125,8 @@ var _socialProfiles = require("./SocialProfiles");
 var _socialProfilesDefault = parcelHelpers.interopDefault(_socialProfiles);
 var _profilePng = require("./assets/profile.png");
 var _profilePngDefault = parcelHelpers.interopDefault(_profilePng);
+var _title = require("./Title");
+var _titleDefault = parcelHelpers.interopDefault(_title);
 class App extends (0, _react.Component) {
     state = {
         dispayBio: false
@@ -27149,28 +27151,33 @@ class App extends (0, _react.Component) {
                     className: "profile"
                 }, void 0, false, {
                     fileName: "src/App.js",
-                    lineNumber: 26,
+                    lineNumber: 27,
                     columnNumber: 4
                 }, this),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
                     children: "Hello !!"
                 }, void 0, false, {
                     fileName: "src/App.js",
-                    lineNumber: 27,
-                    columnNumber: 5
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                    children: "My Name is Prasad. I am Janasanik"
-                }, void 0, false, {
-                    fileName: "src/App.js",
                     lineNumber: 28,
                     columnNumber: 5
                 }, this),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                    children: "I am always looking forward to work for JanaSena Victory in politics."
+                    children: "My Name is Prasad. "
                 }, void 0, false, {
                     fileName: "src/App.js",
                     lineNumber: 29,
+                    columnNumber: 5
+                }, this),
+                this.state.displayBio ? /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _titleDefault.default), {}, void 0, false, {
+                    fileName: "src/App.js",
+                    lineNumber: 30,
+                    columnNumber: 34
+                }, this) : null,
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                    children: "I am always looking forward to work for JanaSena Victory in politics."
+                }, void 0, false, {
+                    fileName: "src/App.js",
+                    lineNumber: 31,
                     columnNumber: 5
                 }, this),
                 this.state.displayBio ? /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27179,21 +27186,21 @@ class App extends (0, _react.Component) {
                             children: "I live in hyderabad and learn the tech stack.."
                         }, void 0, false, {
                             fileName: "src/App.js",
-                            lineNumber: 32,
+                            lineNumber: 34,
                             columnNumber: 6
                         }, this),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                             children: "My favorite language is Javascript and react is too good to learn..."
                         }, void 0, false, {
                             fileName: "src/App.js",
-                            lineNumber: 33,
+                            lineNumber: 35,
                             columnNumber: 6
                         }, this),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                             children: "I love muzic and cinema!!"
                         }, void 0, false, {
                             fileName: "src/App.js",
-                            lineNumber: 34,
+                            lineNumber: 36,
                             columnNumber: 6
                         }, this),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
@@ -27201,13 +27208,13 @@ class App extends (0, _react.Component) {
                             children: "Show Less"
                         }, void 0, false, {
                             fileName: "src/App.js",
-                            lineNumber: 36,
+                            lineNumber: 38,
                             columnNumber: 6
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "src/App.js",
-                    lineNumber: 31,
+                    lineNumber: 33,
                     columnNumber: 32
                 }, this) : /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                     children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
@@ -27215,38 +27222,38 @@ class App extends (0, _react.Component) {
                         children: " Read More .."
                     }, void 0, false, {
                         fileName: "src/App.js",
-                        lineNumber: 40,
+                        lineNumber: 42,
                         columnNumber: 7
                     }, this)
                 }, void 0, false, {
                     fileName: "src/App.js",
-                    lineNumber: 39,
+                    lineNumber: 41,
                     columnNumber: 6
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("hr", {}, void 0, false, {
-                    fileName: "src/App.js",
-                    lineNumber: 45,
-                    columnNumber: 4
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _projectsDefault.default), {}, void 0, false, {
-                    fileName: "src/App.js",
-                    lineNumber: 46,
-                    columnNumber: 4
                 }, this),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("hr", {}, void 0, false, {
                     fileName: "src/App.js",
                     lineNumber: 47,
                     columnNumber: 4
                 }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _socialProfilesDefault.default), {}, void 0, false, {
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _projectsDefault.default), {}, void 0, false, {
                     fileName: "src/App.js",
                     lineNumber: 48,
+                    columnNumber: 4
+                }, this),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("hr", {}, void 0, false, {
+                    fileName: "src/App.js",
+                    lineNumber: 49,
+                    columnNumber: 4
+                }, this),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _socialProfilesDefault.default), {}, void 0, false, {
+                    fileName: "src/App.js",
+                    lineNumber: 50,
                     columnNumber: 4
                 }, this)
             ]
         }, void 0, true, {
             fileName: "src/App.js",
-            lineNumber: 25,
+            lineNumber: 26,
             columnNumber: 4
         }, this);
     }
@@ -27258,7 +27265,7 @@ exports.default = App;
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./Projects":"aLAmU","./SocialProfiles":"eMaOk","./assets/profile.png":"Ubjjs","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"aLAmU":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./Projects":"aLAmU","./SocialProfiles":"eMaOk","./assets/profile.png":"Ubjjs","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./Title":"8uviF"}],"aLAmU":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$5daf = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -28194,6 +28201,67 @@ module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "twitte
 },{"./helpers/bundle-url":"lgJ39"}],"Ubjjs":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "profile.36203507.png" + "?" + Date.now();
 
-},{"./helpers/bundle-url":"lgJ39"}],"irmnC":[function() {},{}]},["1xC6H","ShInH","8lqZg"], "8lqZg", "parcelRequire2041")
+},{"./helpers/bundle-url":"lgJ39"}],"8uviF":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$6caf = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$6caf.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+const TITLES = [
+    "Software Engineer",
+    "Muzic lover",
+    "Enthusiastic learner",
+    "Adventure seeker",
+    "Janasainik"
+];
+class Title extends (0, _react.Component) {
+    state = {
+        titleIndex: 0
+    };
+    componentDidMount() {
+        console.log("Title component mounted");
+        this.animateTitles();
+    }
+    animateTitles = ()=>{
+        this.titleInterval = setInterval(()=>{
+            const titleIndex = (this.state.titleIndex + 1) % TITLES.length;
+            this.setState({
+                titleIndex
+            });
+        }, 4000);
+        console.log("this.titleInterval : ", this.titleInterval);
+    };
+    componentWillUnmount() {
+        console.log("title Component unmounted");
+        clearInterval(this.titleInterval);
+    }
+    render() {
+        const title = TITLES[this.state.titleIndex];
+        return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+            children: [
+                "I am ",
+                title
+            ]
+        }, void 0, true, {
+            fileName: "src/Title.js",
+            lineNumber: 35,
+            columnNumber: 4
+        }, this);
+    }
+}
+exports.default = Title;
+
+  $parcel$ReactRefreshHelpers$6caf.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"irmnC":[function() {},{}]},["1xC6H","ShInH","8lqZg"], "8lqZg", "parcelRequire2041")
 
 //# sourceMappingURL=index.975ef6c8.js.map

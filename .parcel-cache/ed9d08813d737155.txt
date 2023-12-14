@@ -1,4 +1,4 @@
-10058
+10065
 63E:\react_practice\portfolio\node_modules\@parcel\css\types.d.ts133469616833801194 0
 70E:\react_practice\portfolio\node_modules\source-map-support\LICENSE.md133462598219524820 0
 115E:\react_practice\portfolio\node_modules\@parcel\source-map\parcel_sourcemap_node\artifacts\index.darwin-arm64.node133469616953967261 0
@@ -17,15 +17,15 @@
 80E:\react_practice\portfolio\node_modules\csso\node_modules\mdn-data\package.json133462598510747475 0
 57E:\react_practice\portfolio\node_modules\debug\.npmignore133469624759326131 0
 89E:\react_practice\portfolio\node_modules\postcss-selector-parser\dist\selectors\guards.js133462598411530673 0
-40E:\react_practice\portfolio\package.json133469633602386205 0
+40E:\react_practice\portfolio\package.json133469644064653562 0
 114E:\react_practice\portfolio\node_modules\@parcel\optimizer-htmlnano\node_modules\postcss-discard-empty\LICENSE-MIT133469616824138405 0
 83E:\react_practice\portfolio\node_modules\has-values\node_modules\is-number\index.js133469624775844299 0
 68E:\react_practice\portfolio\node_modules\typescript\lib\lib.dom.d.ts133462599813271273 0
 38E:\react_practice\portfolio\.gitignore133462598040424702 0
-52E:\react_practice\portfolio\node_modules\@jridgewell133462597894631014 1
-58E:\react_practice\portfolio\node_modules\typescript\lib\it133462599808639897 1
 83E:\react_practice\portfolio\node_modules\@parcel\core\node_modules\semver\semver.js133469616840121710 0
 73E:\react_practice\portfolio\node_modules\unix-crypt-td-js\README.markdown133469624786551110 0
+58E:\react_practice\portfolio\node_modules\typescript\lib\it133462599808639897 1
+52E:\react_practice\portfolio\node_modules\@jridgewell133462597894631014 1
 85E:\react_practice\portfolio\node_modules\@parcel\hash\parcel-hash.win32-x64-msvc.node133469617015967783 0
 152E:\react_practice\portfolio\node_modules\@parcel\optimizer-htmlnano\node_modules\postcss-svgo\node_modules\css-select\lib\pseudo-selectors\subselects.js133469616936433882 0
 52E:\react_practice\portfolio\node_modules\@istanbuljs133469617800019882 1
@@ -73,7 +73,7 @@
 119E:\react_practice\portfolio\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\syntax\node\Identifier.js133469617026683475 0
 84E:\react_practice\portfolio\node_modules\posthtml\node_modules\htmlparser2\README.md133469616918018133 0
 72E:\react_practice\portfolio\node_modules\caniuse-lite\data\regions\CF.js133462598752921644 0
-31E:\react_practice\portfolio\src133469610480777880 1
+31E:\react_practice\portfolio\src133470111929797325 1
 131E:\react_practice\portfolio\node_modules\@parcel\optimizer-htmlnano\node_modules\postcss-ordered-values\types\rules\transition.d.ts133469616947777525 0
 58E:\react_practice\portfolio\node_modules\nanoid\non-secure133462598581930446 1
 58E:\react_practice\portfolio\node_modules\boolbase\index.js133462598091786663 0
@@ -87,7 +87,7 @@
 61E:\react_practice\portfolio\node_modules\process-nextick-args133469624767396883 1
 116E:\react_practice\portfolio\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\package-module\main.js133469617026613450 0
 70E:\react_practice\portfolio\node_modules\postcss\lib\no-work-result.js133462598455774390 0
-32E:\react_practice\portfolio\dist133469626071219569 1
+32E:\react_practice\portfolio\dist133470120997974696 1
 61E:\react_practice\portfolio\node_modules\terser\dist\.gitkeep133462598018429322 0
 53E:\react_practice\portfolio\node_modules\cors\LICENSE133469624776146316 0
 46E:\react_practice\portfolio\node_modules\@svgr133469617679110305 1
@@ -128,7 +128,7 @@
 82E:\react_practice\portfolio\node_modules\serve-index\public\icons\page_white_h.png133469624810515855 0
 93E:\react_practice\portfolio\node_modules\caniuse-lite\data\features\form-submit-attributes.js133462598977698018 0
 45E:\react_practice\portfolio\package-lock.json133469624822244030 0
-38E:\react_practice\portfolio\src\App.js133469621590327491 0
+38E:\react_practice\portfolio\src\App.js133470120764178741 0
 133E:\react_practice\portfolio\node_modules\@parcel\optimizer-htmlnano\node_modules\postcss-svgo\node_modules\css-tree\lib\syntax\config133469617089591089 1
 82E:\react_practice\portfolio\node_modules\caniuse-lite\data\features\canvas-text.js133462598751352713 0
 72E:\react_practice\portfolio\node_modules\caniuse-lite\data\regions\ES.js133462598968229792 0
@@ -194,6 +194,22 @@
 61E:\react_practice\portfolio\node_modules\on-headers\README.md133469624773689791 0
 113E:\react_practice\portfolio\node_modules\@parcel\optimizer-htmlnano\node_modules\htmlnano\lib\modules\example.cjs133469616906169502 0
 43E:\react_practice\portfolio\src\Projects.js133469347683950308 0
+98E:\react_practice\portfolio\node_modules\@parcel\optimizer-htmlnano\node_modules\commander\esm.mjs133469616905117258 0
+107E:\react_practice\portfolio\node_modules\@parcel\optimizer-htmlnano\node_modules\postcss-reduce-initial\src133469616860924998 1
+58E:\react_practice\portfolio\node_modules\get-value\LICENSE133469624724527675 0
+61E:\react_practice\portfolio\node_modules\ret\lib\positions.js133469624769234472 0
+80E:\react_practice\portfolio\node_modules\caniuse-lite\data\features\png-alpha.js133462599058495400 0
+72E:\react_practice\portfolio\node_modules\posthtml-render\dist\index.d.ts133469616872364110 0
+98E:\react_practice\portfolio\node_modules\legacy-swc-helpers\src\_class_apply_descriptor_update.mjs133469617061773945 0
+55E:\react_practice\portfolio\node_modules\lmdb\native.js133469617066330878 0
+46E:\react_practice\portfolio\node_modules\debug133469624801103125 1
+123E:\react_practice\portfolio\node_modules\@parcel\optimizer-htmlnano\node_modules\postcss-normalize-repeat-style\LICENSE-MIT133469616823170293 0
+56E:\react_practice\portfolio\node_modules\uuid\LICENSE.md133469624803253831 0
+89E:\react_practice\portfolio\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb133469617073978123 1
+67E:\react_practice\portfolio\node_modules\repeat-string\package.json133469624720935291 0
+60E:\react_practice\portfolio\node_modules\msgpackr\index.d.ts133469617026643453 0
+40E:\react_practice\portfolio\src\Title.js133470119529792680 0
+90E:\react_practice\portfolio\node_modules\@swc\helpers\lib\_define_enumerable_properties.js133469617070128928 0
 130E:\react_practice\portfolio\node_modules\.cache\babel-loader\8a8b12f3757bd29a6f7e065215229320321fc8301dafc09f689a22c028ad1074.json133468426131982371 0
 47E:\react_practice\portfolio\node_modules\unpipe133469624773579731 1
 61E:\react_practice\portfolio\node_modules\escape-string-regexp133462598116784619 1
@@ -296,7 +312,7 @@
 47E:\react_practice\portfolio\node_modules\@alloc133469617334756267 1
 69E:\react_practice\portfolio\node_modules\msgpackr-extract\binding.gyp133469616790964909 0
 73E:\react_practice\portfolio\node_modules\serve-index\public\icons\box.png133469624800122484 0
-43E:\react_practice\portfolio\dist\index.html133469626071139525 0
+43E:\react_practice\portfolio\dist\index.html133470120997854608 0
 114E:\react_practice\portfolio\node_modules\@parcel\optimizer-htmlnano\node_modules\stylehacks\src\dictionary\tags.js133469616933351790 0
 80E:\react_practice\portfolio\node_modules\serve-index\public\icons\page_white.png133469624809935514 0
 73E:\react_practice\portfolio\node_modules\abortcontroller-polyfill\LICENSE133469616785386779 0
@@ -386,7 +402,7 @@
 84E:\react_practice\portfolio\node_modules\has-values\node_modules\is-number\README.md133469624763571414 0
 88E:\react_practice\portfolio\node_modules\serve-index\public\icons\page_white_picture.png133469624810876081 0
 139E:\react_practice\portfolio\node_modules\@parcel\optimizer-htmlnano\node_modules\postcss-svgo\node_modules\css-tree\cjs\tokenizer\index.cjs133469617032004641 0
-50E:\react_practice\portfolio\node_modules\@mischnic133469616760590345 1
+50E:\react_practice\portfolio\node_modules\@mischnic133469616760650389 1
 64E:\react_practice\portfolio\node_modules\relateurl\lib\format.js133462598145254097 0
 48E:\react_practice\portfolio\node_modules\@parcel133469624817000582 1
 130E:\react_practice\portfolio\node_modules\.cache\babel-loader\0a4916239c9c2b4909accbde124605d338acef37646dc72a51e58325041c875e.json133468426115451394 0
@@ -714,17 +730,6 @@
 112E:\react_practice\portfolio\node_modules\@parcel\optimizer-htmlnano\node_modules\htmlnano\lib\modules\custom.mjs133469617037801442 0
 51E:\react_practice\portfolio\node_modules\nullthrows133469616860884976 1
 61E:\react_practice\portfolio\node_modules\send\node_modules\ms133469624776196357 1
-98E:\react_practice\portfolio\node_modules\@parcel\optimizer-htmlnano\node_modules\commander\esm.mjs133469616905117258 0
-107E:\react_practice\portfolio\node_modules\@parcel\optimizer-htmlnano\node_modules\postcss-reduce-initial\src133469616860924998 1
-58E:\react_practice\portfolio\node_modules\get-value\LICENSE133469624724527675 0
-61E:\react_practice\portfolio\node_modules\ret\lib\positions.js133469624769234472 0
-80E:\react_practice\portfolio\node_modules\caniuse-lite\data\features\png-alpha.js133462599058495400 0
-72E:\react_practice\portfolio\node_modules\posthtml-render\dist\index.d.ts133469616872364110 0
-98E:\react_practice\portfolio\node_modules\legacy-swc-helpers\src\_class_apply_descriptor_update.mjs133469617061773945 0
-55E:\react_practice\portfolio\node_modules\lmdb\native.js133469617066330878 0
-46E:\react_practice\portfolio\node_modules\debug133469624801103125 1
-123E:\react_practice\portfolio\node_modules\@parcel\optimizer-htmlnano\node_modules\postcss-normalize-repeat-style\LICENSE-MIT133469616823170293 0
-56E:\react_practice\portfolio\node_modules\uuid\LICENSE.md133469624803253831 0
 116E:\react_practice\portfolio\node_modules\msgpackr-extract\node_modules\node-gyp-build-optional-packages\package.json133469616871489064 0
 66E:\react_practice\portfolio\node_modules\event-stream\package.json133469624731802699 0
 76E:\react_practice\portfolio\node_modules\typescript\lib\lib.es2015.core.d.ts133462599813391391 0
@@ -1475,9 +1480,6 @@
 87E:\react_practice\portfolio\node_modules\object-copy\node_modules\is-descriptor\.github133469624800862974 1
 58E:\react_practice\portfolio\node_modules\@parcel\utils\src133469617032468747 1
 75E:\react_practice\portfolio\node_modules\xxhash-wasm\esm\xxhash-wasm.js.map133469616871629367 0
-72E:\react_practice\portfolio\node_modules\caniuse-lite\data\regions\FJ.js133462598971403003 0
-79E:\react_practice\portfolio\node_modules\serve-index\public\icons\page_gear.png133469624806999158 0
-109E:\react_practice\portfolio\node_modules\@parcel\optimizer-svgo\node_modules\svgo\plugins\sortDefsChildren.js133469617029530412 0
 90E:\react_practice\portfolio\node_modules\caniuse-lite\data\features\css-descendant-gtgt.js133462598866981950 0
 150E:\react_practice\portfolio\node_modules\@parcel\optimizer-htmlnano\node_modules\postcss-svgo\node_modules\css-tree\cjs\tokenizer\OffsetToLocation.cjs133469617041037103 0
 71E:\react_practice\portfolio\node_modules\xxhash-wasm\cjs\xxhash-wasm.js133469616785206664 0
@@ -2661,12 +2663,12 @@
 109E:\react_practice\portfolio\node_modules\@parcel\optimizer-htmlnano\node_modules\stylehacks\types\plugin.d.ts133469616956028982 0
 71E:\react_practice\portfolio\node_modules\lmdb\dependencies\lmdb-data-v1133469616783575579 1
 82E:\react_practice\portfolio\node_modules\source-map-js\lib\source-map-generator.js133462598343238311 0
-86E:\react_practice\portfolio\node_modules\caniuse-lite\data\features\css-placeholder.js133462598919784453 0
-130E:\react_practice\portfolio\node_modules\@parcel\optimizer-htmlnano\node_modules\htmlnano\lib\modules\normalizeAttributeValues.cjs133469616935038364 0
 78E:\react_practice\portfolio\node_modules\legacy-swc-helpers\src\_ts_values.mjs133469617069681623 0
 69E:\react_practice\portfolio\node_modules\setprototypeof\test\index.js133469624777817743 0
 87E:\react_practice\portfolio\node_modules\base\node_modules\define-property\package.json133469624736170870 0
 136E:\react_practice\portfolio\node_modules\@parcel\optimizer-htmlnano\node_modules\postcss-svgo\node_modules\css-tree\cjs\syntax\index.cjs133469617028333089 0
+130E:\react_practice\portfolio\node_modules\@parcel\optimizer-htmlnano\node_modules\htmlnano\lib\modules\normalizeAttributeValues.cjs133469616935038364 0
+86E:\react_practice\portfolio\node_modules\caniuse-lite\data\features\css-placeholder.js133462598919784453 0
 134E:\react_practice\portfolio\node_modules\@parcel\optimizer-htmlnano\node_modules\postcss-discard-comments\types\lib\commentParser.d.ts133469616904502274 0
 130E:\react_practice\portfolio\node_modules\.cache\babel-loader\70a54a4a2162948999f56e0215ba9c431b6aa7200c41a42491378f45b94cdaf7.json133468581471193347 0
 54E:\react_practice\portfolio\node_modules\debug\LICENSE133469624772656466 0
@@ -2826,6 +2828,9 @@
 79E:\react_practice\portfolio\node_modules\serve-index\public\icons\page_edit.png133469624805842187 0
 80E:\react_practice\portfolio\node_modules\serve-index\public\icons\page_error.png133469624806216679 0
 79E:\react_practice\portfolio\node_modules\serve-index\public\icons\page_find.png133469624806829059 0
+72E:\react_practice\portfolio\node_modules\caniuse-lite\data\regions\FJ.js133462598971403003 0
+79E:\react_practice\portfolio\node_modules\serve-index\public\icons\page_gear.png133469624806999158 0
+109E:\react_practice\portfolio\node_modules\@parcel\optimizer-svgo\node_modules\svgo\plugins\sortDefsChildren.js133469617029530412 0
 84E:\react_practice\portfolio\node_modules\serve-index\public\icons\page_lightning.png133469624807229307 0
 85E:\react_practice\portfolio\node_modules\csso\node_modules\mdn-data\css\syntaxes.json133462598582654720 0
 79E:\react_practice\portfolio\node_modules\serve-index\public\icons\page_link.png133469624807289363 0
@@ -3157,9 +3162,6 @@
 63E:\react_practice\portfolio\node_modules\repeat-string\index.js133469624730971948 0
 90E:\react_practice\portfolio\node_modules\@parcel\package-manager\src\promiseFromProcess.js133469616944776618 0
 62E:\react_practice\portfolio\node_modules\repeat-string\LICENSE133469624726198786 0
-89E:\react_practice\portfolio\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb133469617073978123 1
-67E:\react_practice\portfolio\node_modules\repeat-string\package.json133469624720935291 0
-60E:\react_practice\portfolio\node_modules\msgpackr\index.d.ts133469617026643453 0
 64E:\react_practice\portfolio\node_modules\repeat-string\README.md133469624722856568 0
 61E:\react_practice\portfolio\node_modules\msgpackr\unpack.d.ts133469617026913640 0
 89E:\react_practice\portfolio\node_modules\caniuse-lite\data\features\css-matches-pseudo.js133462598915755485 0
@@ -4495,12 +4497,12 @@
 93E:\react_practice\portfolio\node_modules\lmdb\node_modules\node-addon-api\tools\conversion.js133469616918588664 0
 64E:\react_practice\portfolio\node_modules\lmdb\dist\index.cjs.map133469617068173860 0
 59E:\react_practice\portfolio\node_modules\lmdb\dict\dict.txt133469617071202379 0
-79E:\react_practice\portfolio\node_modules\caniuse-lite\data\features\css-grid.js133462598872677628 0
 63E:\react_practice\portfolio\node_modules\lmdb\dependencies\lmdb133469616790854802 1
 71E:\react_practice\portfolio\node_modules\@parcel\core\lib\loadDotEnv.js133469617038151661 0
 61E:\react_practice\portfolio\node_modules\event-stream\LICENCE133469624768429850 0
 61E:\react_practice\portfolio\node_modules\lmdb\dependencies\v8133469617064937229 1
 66E:\react_practice\portfolio\node_modules\lmdb\dependencies\lz4\lib133469617068706114 1
+50E:\react_practice\portfolio\dist\index.7ad0fb06.js133470118272366329 0
 70E:\react_practice\portfolio\node_modules\lmdb\dependencies\lz4\LICENSE133469616917216234 0
 70E:\react_practice\portfolio\node_modules\lmdb\dependencies\lz4\lib\dll133469617068253909 1
 79E:\react_practice\portfolio\node_modules\lmdb\dependencies\lz4\lib\liblz4.pc.in133469617065717763 0
@@ -6199,6 +6201,7 @@
 76E:\react_practice\portfolio\node_modules\@parcel\core\test\fixtures\main-mjs133469617076619031 1
 87E:\react_practice\portfolio\node_modules\caniuse-lite\data\features\css-font-stretch.js133462598871892703 0
 84E:\react_practice\portfolio\node_modules\caniuse-lite\data\features\css-gradients.js133462598872407441 0
+79E:\react_practice\portfolio\node_modules\caniuse-lite\data\features\css-grid.js133462598872677628 0
 94E:\react_practice\portfolio\node_modules\caniuse-lite\data\features\css-hanging-punctuation.js133462598872847933 0
 78E:\react_practice\portfolio\node_modules\caniuse-lite\data\features\css-has.js133462598905784410 0
 84E:\react_practice\portfolio\node_modules\caniuse-lite\data\features\css-image-set.js133462598911325456 0
@@ -6681,6 +6684,7 @@
 72E:\react_practice\portfolio\node_modules\@parcel\utils\test\input\config133469617062354578 1
 117E:\react_practice\portfolio\node_modules\@parcel\optimizer-htmlnano\node_modules\postcss-normalize-repeat-style\types133469616900123142 1
 55E:\react_practice\portfolio\node_modules\batch\Makefile133469624786571243 0
+54E:\react_practice\portfolio\dist\index.eecbb0c1.js.map133470120997964694 0
 59E:\react_practice\portfolio\node_modules\batch\package.json133469624724647759 0
 110E:\react_practice\portfolio\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\parser\create.js133469616938069320 0
 56E:\react_practice\portfolio\node_modules\batch\Readme.md133469624775844299 0
@@ -7186,7 +7190,6 @@
 74E:\react_practice\portfolio\node_modules\@swc\helpers\lib\_create_super.js133469617069097844 0
 70E:\react_practice\portfolio\node_modules\@swc\helpers\lib\_decorate.js133469617069428062 0
 70E:\react_practice\portfolio\node_modules\@swc\helpers\lib\_defaults.js133469617069611581 0
-90E:\react_practice\portfolio\node_modules\@swc\helpers\lib\_define_enumerable_properties.js133469617070128928 0
 77E:\react_practice\portfolio\node_modules\@swc\helpers\lib\_define_property.js133469617070852125 0
 69E:\react_practice\portfolio\node_modules\@swc\helpers\lib\_extends.js133469617073898122 0
 135E:\react_practice\portfolio\node_modules\@parcel\optimizer-htmlnano\node_modules\postcss-svgo\node_modules\css-tree\cjs\lexer\match.cjs133469617036409289 0
@@ -8788,6 +8791,7 @@
 117E:\react_practice\portfolio\node_modules\@parcel\optimizer-htmlnano\node_modules\postcss-minify-font-values\README.md133469616904793005 0
 124E:\react_practice\portfolio\node_modules\@parcel\optimizer-htmlnano\node_modules\postcss-minify-font-values\types\index.d.ts133469616909762506 0
 134E:\react_practice\portfolio\node_modules\@parcel\optimizer-htmlnano\node_modules\postcss-minify-font-values\types\lib\minify-font.d.ts133469616918378380 0
+54E:\react_practice\portfolio\dist\index.999cbc71.js.map133470114526533333 0
 132E:\react_practice\portfolio\node_modules\@parcel\optimizer-htmlnano\node_modules\postcss-minify-font-values\src\lib\minify-family.js133469616894503715 0
 132E:\react_practice\portfolio\node_modules\@parcel\optimizer-htmlnano\node_modules\postcss-minify-font-values\src\lib\minify-weight.js133469616899709685 0
 112E:\react_practice\portfolio\node_modules\@parcel\optimizer-htmlnano\node_modules\postcss-merge-rules\LICENSE-MIT133469616823873439 0
@@ -10049,7 +10053,10 @@
 54E:\react_practice\portfolio\dist\index.442398f7.js.map133469626071209571 0
 51E:\react_practice\portfolio\dist\index.61d3354a.css133469623875066211 0
 55E:\react_practice\portfolio\dist\index.61d3354a.css.map133469623875136266 0
+54E:\react_practice\portfolio\dist\index.7ad0fb06.js.map133470118272456393 0
 54E:\react_practice\portfolio\dist\index.975ef6c8.js.map133469623877277702 0
+50E:\react_practice\portfolio\dist\index.999cbc71.js133470114526363242 0
+50E:\react_practice\portfolio\dist\index.eecbb0c1.js133470120997874634 0
 59E:\react_practice\portfolio\dist\linkedin_icon.305baa80.png133469623876987484 0
 54E:\react_practice\portfolio\dist\project1.2a482419.png133469626069878694 0
 54E:\react_practice\portfolio\dist\project1.cae3be24.png133469623877287679 0
