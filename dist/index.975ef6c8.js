@@ -28222,9 +28222,13 @@ const TITLES = [
 ];
 class Title extends (0, _react.Component) {
     state = {
-        titleIndex: 0
+        titleIndex: 0,
+        fadeIn: true
     };
     componentDidMount() {
+        this.timeout = setTimeout(()=>this.setState({
+                fadeIn: false
+            }), 2000);
         console.log("Title component mounted");
         this.animateTitles();
     }
@@ -28232,25 +28236,32 @@ class Title extends (0, _react.Component) {
         this.titleInterval = setInterval(()=>{
             const titleIndex = (this.state.titleIndex + 1) % TITLES.length;
             this.setState({
-                titleIndex
+                titleIndex,
+                fadeIn: true
             });
+            this.timeout = setTimeout(()=>this.setState({
+                    fadeIn: false
+                }), 2000);
         }, 4000);
         console.log("this.titleInterval : ", this.titleInterval);
     };
     componentWillUnmount() {
         console.log("title Component unmounted");
-        clearInterval(this.titleInterval);
+        //clearInterval(this.titleInterval);
+        clearTimeout(this.timeout);
     }
     render() {
-        const title = TITLES[this.state.titleIndex];
+        const { fadeIn , titleIndex  } = this.state;
+        const title = TITLES[titleIndex];
         return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+            className: fadeIn ? "title-fade-in" : "title-fade-out",
             children: [
                 "I am ",
                 title
             ]
         }, void 0, true, {
             fileName: "src/Title.js",
-            lineNumber: 35,
+            lineNumber: 40,
             columnNumber: 4
         }, this);
     }
