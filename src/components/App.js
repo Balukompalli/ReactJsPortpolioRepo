@@ -5,7 +5,7 @@ import SocialProfiles  from "./SocialProfiles";
 import Title from "./Title";
 import profile from '../assets/profile.png'
 //import Jokes from "./Jokes";
-import Header from "./Header";
+//import Header from "./Header";
 
 class App extends Component{
 	state = {dispayBio: false};
@@ -25,7 +25,7 @@ class App extends Component{
 	render() {
 		return (
 			<div>
-			<Header/>
+			
 			<img src={profile} alt='profile'className="profile"/>
 				<h1>Hello !!</h1>
 				<p>My Name is Prasad. </p> 
@@ -56,5 +56,10 @@ class App extends Component{
 	}	
 }
 
+/*const AppWithHeader = ()=> {
+	return (
+		<Header Component={App}></Header>
+	)
+}
+*/
 export default App;
-
