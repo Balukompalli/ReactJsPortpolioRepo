@@ -2906,7 +2906,7 @@ var _reactDefault = parcelHelpers.interopDefault(_react);
 var _client = require("react-dom/client");
 var _clientDefault = parcelHelpers.interopDefault(_client);
 //import ReactDOM from 'react-dom';
-var _app = require("./App");
+var _app = require("./components/App");
 var _appDefault = parcelHelpers.interopDefault(_app);
 var _indexCss = require("./index.css");
 const root = (0, _clientDefault.default).createRoot(document.getElementById("root"));
@@ -2954,7 +2954,7 @@ console.log(lion1);
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-dom/client":"lOjBx","./App":"2kQhy","./index.css":"irmnC","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"iTorj":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-dom/client":"lOjBx","./index.css":"irmnC","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./components/App":"ey9du"}],"iTorj":[function(require,module,exports) {
 "use strict";
 module.exports = require("./cjs/react-jsx-dev-runtime.development.js");
 
@@ -27107,351 +27107,7 @@ module.exports = require("./cjs/scheduler.development.js");
     /* global __REACT_DEVTOOLS_GLOBAL_HOOK__ */ if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== "undefined" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop === "function") __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop(new Error());
 })();
 
-},{}],"2kQhy":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$f00f = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-var prevRefreshReg = window.$RefreshReg$;
-var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$f00f.prelude(module);
-
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _react = require("react");
-var _reactDefault = parcelHelpers.interopDefault(_react);
-var _projects = require("./Projects");
-var _projectsDefault = parcelHelpers.interopDefault(_projects);
-var _socialProfiles = require("./SocialProfiles");
-var _socialProfilesDefault = parcelHelpers.interopDefault(_socialProfiles);
-var _profilePng = require("./assets/profile.png");
-var _profilePngDefault = parcelHelpers.interopDefault(_profilePng);
-var _title = require("./Title");
-var _titleDefault = parcelHelpers.interopDefault(_title);
-class App extends (0, _react.Component) {
-    state = {
-        dispayBio: false
-    };
-    /*constructor() {
-		super();
-		this.state = { displayBio: false};
-		console.log('Component this' , this);
-		this.toggleDisplayBio= this.toggleDisplayBio.bind(this);
-	}*/ toggleDisplayBio = ()=>{
-        this.setState({
-            displayBio: !this.state.displayBio
-        });
-    //this.state.displayBio = !this.state.displayBio;
-    };
-    render() {
-        return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-            children: [
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                    src: (0, _profilePngDefault.default),
-                    alt: "profile",
-                    className: "profile"
-                }, void 0, false, {
-                    fileName: "src/App.js",
-                    lineNumber: 27,
-                    columnNumber: 4
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-                    children: "Hello !!"
-                }, void 0, false, {
-                    fileName: "src/App.js",
-                    lineNumber: 28,
-                    columnNumber: 5
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                    children: "My Name is Prasad. "
-                }, void 0, false, {
-                    fileName: "src/App.js",
-                    lineNumber: 29,
-                    columnNumber: 5
-                }, this),
-                this.state.displayBio ? /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _titleDefault.default), {}, void 0, false, {
-                    fileName: "src/App.js",
-                    lineNumber: 30,
-                    columnNumber: 34
-                }, this) : null,
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                    children: "I am always looking forward to work for JanaSena Victory in politics."
-                }, void 0, false, {
-                    fileName: "src/App.js",
-                    lineNumber: 31,
-                    columnNumber: 5
-                }, this),
-                this.state.displayBio ? /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    children: [
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                            children: "I live in hyderabad and learn the tech stack.."
-                        }, void 0, false, {
-                            fileName: "src/App.js",
-                            lineNumber: 34,
-                            columnNumber: 6
-                        }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                            children: "My favorite language is Javascript and react is too good to learn..."
-                        }, void 0, false, {
-                            fileName: "src/App.js",
-                            lineNumber: 35,
-                            columnNumber: 6
-                        }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                            children: "I love muzic and cinema!!"
-                        }, void 0, false, {
-                            fileName: "src/App.js",
-                            lineNumber: 36,
-                            columnNumber: 6
-                        }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
-                            onClick: this.toggleDisplayBio,
-                            children: "Show Less"
-                        }, void 0, false, {
-                            fileName: "src/App.js",
-                            lineNumber: 38,
-                            columnNumber: 6
-                        }, this)
-                    ]
-                }, void 0, true, {
-                    fileName: "src/App.js",
-                    lineNumber: 33,
-                    columnNumber: 32
-                }, this) : /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
-                        onClick: this.toggleDisplayBio,
-                        children: " Read More .."
-                    }, void 0, false, {
-                        fileName: "src/App.js",
-                        lineNumber: 42,
-                        columnNumber: 7
-                    }, this)
-                }, void 0, false, {
-                    fileName: "src/App.js",
-                    lineNumber: 41,
-                    columnNumber: 6
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("hr", {}, void 0, false, {
-                    fileName: "src/App.js",
-                    lineNumber: 47,
-                    columnNumber: 4
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _projectsDefault.default), {}, void 0, false, {
-                    fileName: "src/App.js",
-                    lineNumber: 48,
-                    columnNumber: 4
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("hr", {}, void 0, false, {
-                    fileName: "src/App.js",
-                    lineNumber: 49,
-                    columnNumber: 4
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _socialProfilesDefault.default), {}, void 0, false, {
-                    fileName: "src/App.js",
-                    lineNumber: 50,
-                    columnNumber: 4
-                }, this)
-            ]
-        }, void 0, true, {
-            fileName: "src/App.js",
-            lineNumber: 26,
-            columnNumber: 4
-        }, this);
-    }
-}
-exports.default = App;
-
-  $parcel$ReactRefreshHelpers$f00f.postlude(module);
-} finally {
-  window.$RefreshReg$ = prevRefreshReg;
-  window.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./Projects":"aLAmU","./SocialProfiles":"eMaOk","./assets/profile.png":"Ubjjs","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./Title":"8uviF"}],"aLAmU":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$5daf = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-var prevRefreshReg = window.$RefreshReg$;
-var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$5daf.prelude(module);
-
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _react = require("react");
-var _reactDefault = parcelHelpers.interopDefault(_react);
-var _projects = require("./data/projects");
-var _projectsDefault = parcelHelpers.interopDefault(_projects);
-class Project extends (0, _react.Component) {
-    render() {
-        console.log("this.props", this.props);
-        const { title , image , description , link  } = this.props.project;
-        return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-            style: {
-                display: "inline-block",
-                width: 360,
-                height: 30,
-                margin: 10
-            },
-            children: [
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                    children: title
-                }, void 0, false, {
-                    fileName: "src/Projects.js",
-                    lineNumber: 12,
-                    columnNumber: 5
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                    src: image,
-                    alt: "profile",
-                    style: {
-                        width: 150,
-                        height: 150
-                    }
-                }, void 0, false, {
-                    fileName: "src/Projects.js",
-                    lineNumber: 13,
-                    columnNumber: 5
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                    children: description
-                }, void 0, false, {
-                    fileName: "src/Projects.js",
-                    lineNumber: 14,
-                    columnNumber: 5
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                    href: link,
-                    children: link
-                }, void 0, false, {
-                    fileName: "src/Projects.js",
-                    lineNumber: 15,
-                    columnNumber: 5
-                }, this)
-            ]
-        }, void 0, true, {
-            fileName: "src/Projects.js",
-            lineNumber: 11,
-            columnNumber: 4
-        }, this);
-    }
-}
-class Projects extends (0, _react.Component) {
-    render() {
-        return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-            children: [
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
-                    children: "Highlighted Projects"
-                }, void 0, false, {
-                    fileName: "src/Projects.js",
-                    lineNumber: 25,
-                    columnNumber: 4
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    children: (0, _projectsDefault.default).map((PROJECT)=>{
-                        return /*<div key={PROJECT.id}>{PROJECT.title}</div>*/ /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Project, {
-                            project: PROJECT
-                        }, PROJECT.id, false, {
-                            fileName: "src/Projects.js",
-                            lineNumber: 31,
-                            columnNumber: 7
-                        }, this);
-                    })
-                }, void 0, false, {
-                    fileName: "src/Projects.js",
-                    lineNumber: 26,
-                    columnNumber: 5
-                }, this)
-            ]
-        }, void 0, true, {
-            fileName: "src/Projects.js",
-            lineNumber: 24,
-            columnNumber: 4
-        }, this);
-    }
-}
-exports.default = Projects;
-
-  $parcel$ReactRefreshHelpers$5daf.postlude(module);
-} finally {
-  window.$RefreshReg$ = prevRefreshReg;
-  window.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./data/projects":"jcreQ","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"jcreQ":[function(require,module,exports) {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-var _project1Png = require("../assets/project1.png");
-var _project1PngDefault = parcelHelpers.interopDefault(_project1Png);
-var _project2Png = require("../assets/project2.png");
-var _project2PngDefault = parcelHelpers.interopDefault(_project2Png);
-var _project3Png = require("../assets/project3.png");
-var _project3PngDefault = parcelHelpers.interopDefault(_project3Png);
-const PROJECTS = [
-    {
-        id: 1,
-        title: "Example React Application",
-        description: "A react app that built for  js and web dev concepts",
-        link: "https://github.com/Balukompalli/ReactJsPortpolioRepo",
-        image: (0, _project1PngDefault.default)
-    },
-    {
-        id: 2,
-        title: "My Project 2",
-        description: "A react app that built for  js and web dev concepts",
-        link: "https://github.com/Balukompalli/ReactJsPortpolioRepo",
-        image: (0, _project2PngDefault.default)
-    },
-    {
-        id: 3,
-        title: "My Project3",
-        description: "A react app that built for  js and web dev concepts",
-        link: "https://github.com/Balukompalli/ReactJsPortpolioRepo",
-        image: (0, _project3PngDefault.default)
-    }, 
-];
-exports.default = PROJECTS;
-
-},{"../assets/project1.png":"cngJB","../assets/project2.png":"Rojn7","../assets/project3.png":"8zfl5","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"cngJB":[function(require,module,exports) {
-module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "project1.cae3be24.png" + "?" + Date.now();
-
-},{"./helpers/bundle-url":"lgJ39"}],"lgJ39":[function(require,module,exports) {
-"use strict";
-var bundleURL = {};
-function getBundleURLCached(id) {
-    var value = bundleURL[id];
-    if (!value) {
-        value = getBundleURL();
-        bundleURL[id] = value;
-    }
-    return value;
-}
-function getBundleURL() {
-    try {
-        throw new Error();
-    } catch (err) {
-        var matches = ("" + err.stack).match(/(https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/[^)\n]+/g);
-        if (matches) // The first two stack frames will be this function and getBundleURLCached.
-        // Use the 3rd one, which will be a runtime in the original bundle.
-        return getBaseURL(matches[2]);
-    }
-    return "/";
-}
-function getBaseURL(url) {
-    return ("" + url).replace(/^((?:https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/.+)\/[^/]+$/, "$1") + "/";
-} // TODO: Replace uses with `new URL(url).origin` when ie11 is no longer supported.
-function getOrigin(url) {
-    var matches = ("" + url).match(/(https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/[^/]+/);
-    if (!matches) throw new Error("Origin not found");
-    return matches[0];
-}
-exports.getBundleURL = getBundleURLCached;
-exports.getBaseURL = getBaseURL;
-exports.getOrigin = getOrigin;
-
-},{}],"Rojn7":[function(require,module,exports) {
-module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "project2.d47934b7.png" + "?" + Date.now();
-
-},{"./helpers/bundle-url":"lgJ39"}],"8zfl5":[function(require,module,exports) {
-module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "project3.104d946c.png" + "?" + Date.now();
-
-},{"./helpers/bundle-url":"lgJ39"}],"gkKU3":[function(require,module,exports) {
+},{}],"irmnC":[function() {},{}],"gkKU3":[function(require,module,exports) {
 exports.interopDefault = function(a) {
     return a && a.__esModule ? a : {
         default: a
@@ -28065,11 +27721,11 @@ module.exports = require("./cjs/react-refresh-runtime.development.js");
     exports.setSignature = setSignature;
 })();
 
-},{}],"eMaOk":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$52a0 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+},{}],"ey9du":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$9bc7 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$52a0.prelude(module);
+$parcel$ReactRefreshHelpers$9bc7.prelude(module);
 
 try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
@@ -28077,81 +27733,469 @@ parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
-var _socialProfiles = require("./data/socialProfiles");
+var _projects = require("./Projects");
+var _projectsDefault = parcelHelpers.interopDefault(_projects);
+var _socialProfiles = require("./SocialProfiles");
 var _socialProfilesDefault = parcelHelpers.interopDefault(_socialProfiles);
-class SocialProfile extends (0, _react.Component) {
-    render() {
-        const { link , image  } = this.props.socailProfile;
-        return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                href: link,
-                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                    src: image,
-                    alt: "social-profile",
-                    style: {
-                        width: 30,
-                        height: 30,
-                        margin: 10
-                    }
-                }, void 0, false, {
-                    fileName: "src/SocialProfiles.js",
-                    lineNumber: 10,
-                    columnNumber: 6
-                }, this)
-            }, void 0, false, {
-                fileName: "src/SocialProfiles.js",
-                lineNumber: 9,
-                columnNumber: 5
-            }, this)
-        }, void 0, false, {
-            fileName: "src/SocialProfiles.js",
-            lineNumber: 8,
-            columnNumber: 4
-        }, this);
-    }
-}
-class SocialProfiles extends (0, _react.Component) {
+var _title = require("./Title");
+var _titleDefault = parcelHelpers.interopDefault(_title);
+var _profilePng = require("../assets/profile.png");
+var _profilePngDefault = parcelHelpers.interopDefault(_profilePng);
+class App extends (0, _react.Component) {
+    state = {
+        dispayBio: false
+    };
+    /*constructor() {
+		super();
+		this.state = { displayBio: false};
+		console.log('Component this' , this);
+		this.toggleDisplayBio= this.toggleDisplayBio.bind(this);
+	}*/ toggleDisplayBio = ()=>{
+        this.setState({
+            displayBio: !this.state.displayBio
+        });
+    //this.state.displayBio = !this.state.displayBio;
+    };
     render() {
         return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
             children: [
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
-                    children: " Connect with me thru below links !! "
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                    src: (0, _profilePngDefault.default),
+                    alt: "profile",
+                    className: "profile"
                 }, void 0, false, {
-                    fileName: "src/SocialProfiles.js",
-                    lineNumber: 22,
+                    fileName: "src/components/App.js",
+                    lineNumber: 28,
                     columnNumber: 4
                 }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    children: (0, _socialProfilesDefault.default).map((SOCIAL_PROFILE)=>{
-                        return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(SocialProfile, {
-                            socailProfile: SOCIAL_PROFILE
-                        }, SOCIAL_PROFILE.id, false, {
-                            fileName: "src/SocialProfiles.js",
-                            lineNumber: 27,
-                            columnNumber: 13
-                        }, this);
-                    })
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                    children: "Hello !!"
                 }, void 0, false, {
-                    fileName: "src/SocialProfiles.js",
-                    lineNumber: 24,
+                    fileName: "src/components/App.js",
+                    lineNumber: 29,
+                    columnNumber: 5
+                }, this),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                    children: "My Name is Prasad. "
+                }, void 0, false, {
+                    fileName: "src/components/App.js",
+                    lineNumber: 30,
+                    columnNumber: 5
+                }, this),
+                this.state.displayBio ? /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _titleDefault.default), {}, void 0, false, {
+                    fileName: "src/components/App.js",
+                    lineNumber: 31,
+                    columnNumber: 34
+                }, this) : null,
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                    children: "I am always looking forward to work for JanaSena Victory in politics."
+                }, void 0, false, {
+                    fileName: "src/components/App.js",
+                    lineNumber: 32,
+                    columnNumber: 5
+                }, this),
+                this.state.displayBio ? /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                            children: "I live in hyderabad and learn the tech stack.."
+                        }, void 0, false, {
+                            fileName: "src/components/App.js",
+                            lineNumber: 35,
+                            columnNumber: 6
+                        }, this),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                            children: "My favorite language is Javascript and react is too good to learn..."
+                        }, void 0, false, {
+                            fileName: "src/components/App.js",
+                            lineNumber: 36,
+                            columnNumber: 6
+                        }, this),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                            children: "I love muzic and cinema!!"
+                        }, void 0, false, {
+                            fileName: "src/components/App.js",
+                            lineNumber: 37,
+                            columnNumber: 6
+                        }, this),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                            onClick: this.toggleDisplayBio,
+                            children: "Show Less"
+                        }, void 0, false, {
+                            fileName: "src/components/App.js",
+                            lineNumber: 39,
+                            columnNumber: 6
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/components/App.js",
+                    lineNumber: 34,
+                    columnNumber: 32
+                }, this) : /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                        onClick: this.toggleDisplayBio,
+                        children: " Read More .."
+                    }, void 0, false, {
+                        fileName: "src/components/App.js",
+                        lineNumber: 43,
+                        columnNumber: 7
+                    }, this)
+                }, void 0, false, {
+                    fileName: "src/components/App.js",
+                    lineNumber: 42,
+                    columnNumber: 6
+                }, this),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("hr", {}, void 0, false, {
+                    fileName: "src/components/App.js",
+                    lineNumber: 48,
+                    columnNumber: 4
+                }, this),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _projectsDefault.default), {}, void 0, false, {
+                    fileName: "src/components/App.js",
+                    lineNumber: 49,
+                    columnNumber: 4
+                }, this),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("hr", {}, void 0, false, {
+                    fileName: "src/components/App.js",
+                    lineNumber: 50,
+                    columnNumber: 4
+                }, this),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _socialProfilesDefault.default), {}, void 0, false, {
+                    fileName: "src/components/App.js",
+                    lineNumber: 51,
                     columnNumber: 4
                 }, this)
             ]
         }, void 0, true, {
-            fileName: "src/SocialProfiles.js",
-            lineNumber: 21,
-            columnNumber: 3
+            fileName: "src/components/App.js",
+            lineNumber: 27,
+            columnNumber: 4
         }, this);
     }
 }
-exports.default = SocialProfiles;
+exports.default = App;
 
-  $parcel$ReactRefreshHelpers$52a0.postlude(module);
+  $parcel$ReactRefreshHelpers$9bc7.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./data/socialProfiles":"9Nllp","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"9Nllp":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./Projects":"16pwG","./SocialProfiles":"1RVkN","../assets/profile.png":"Ubjjs","./Title":"6wotK","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"16pwG":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$ec2f = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$ec2f.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _projects = require("../data/projects");
+var _projectsDefault = parcelHelpers.interopDefault(_projects);
+/**
+ * class style which extends a component
+ */ /*class Project extends Component {
+	render() {
+		console.log('this.props', this.props);
+		
+		const {title, image, description, link } = this.props.project;
+		
+		return (
+			<div style={{display:'inline-block', width:360, height:30, margin:10 }}>
+				<h3>{title}</h3>
+				<img src={image} alt='profile' style={{width:150, height:150}}/>
+				<p>{description}</p>
+				<a href={link}>{link}</a>
+			</div>
+		)
+	}
+}
+
+class Projects extends Component {
+	render(){
+		return(
+			<div>
+			<h2>Highlighted Projects</h2>
+				<div>
+				{
+					PROJECTS.map(PROJECT => {
+						return (
+							
+						<Project key={PROJECT.id} project={PROJECT}/>
+						
+						);
+						
+					})
+				}
+				</div>
+			</div>
+		)
+	}
+	
+}
+
+*/ /**
+ * stateless function style:: 
+ * above class style is converting to stateless function style 
+ */ const Project = (props)=>{
+    const { title , image , description , link  } = props.project;
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        style: {
+            display: "inline-block",
+            width: 360,
+            height: 30,
+            margin: 10
+        },
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                children: title
+            }, void 0, false, {
+                fileName: "src/components/Projects.js",
+                lineNumber: 58,
+                columnNumber: 5
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                src: image,
+                alt: "profile",
+                style: {
+                    width: 150,
+                    height: 150
+                }
+            }, void 0, false, {
+                fileName: "src/components/Projects.js",
+                lineNumber: 59,
+                columnNumber: 5
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                children: description
+            }, void 0, false, {
+                fileName: "src/components/Projects.js",
+                lineNumber: 60,
+                columnNumber: 5
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                href: link,
+                children: link
+            }, void 0, false, {
+                fileName: "src/components/Projects.js",
+                lineNumber: 61,
+                columnNumber: 5
+            }, undefined)
+        ]
+    }, void 0, true, {
+        fileName: "src/components/Projects.js",
+        lineNumber: 57,
+        columnNumber: 4
+    }, undefined);
+};
+_c = Project;
+const Projects = ()=>//removing return and curly braces and use () instead of return is called inline body..
+    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                children: "Highlighted Projects"
+            }, void 0, false, {
+                fileName: "src/components/Projects.js",
+                lineNumber: 69,
+                columnNumber: 4
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                children: (0, _projectsDefault.default).map((PROJECT)=>{
+                    return /*<div key={PROJECT.id}>{PROJECT.title}</div>*/ /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Project, {
+                        project: PROJECT
+                    }, PROJECT.id, false, {
+                        fileName: "src/components/Projects.js",
+                        lineNumber: 75,
+                        columnNumber: 7
+                    }, undefined);
+                })
+            }, void 0, false, {
+                fileName: "src/components/Projects.js",
+                lineNumber: 70,
+                columnNumber: 5
+            }, undefined)
+        ]
+    }, void 0, true, {
+        fileName: "src/components/Projects.js",
+        lineNumber: 68,
+        columnNumber: 3
+    }, undefined);
+_c1 = Projects;
+exports.default = Projects;
+var _c, _c1;
+$RefreshReg$(_c, "Project");
+$RefreshReg$(_c1, "Projects");
+
+  $parcel$ReactRefreshHelpers$ec2f.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../data/projects":"jcreQ","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"jcreQ":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _project1Png = require("../assets/project1.png");
+var _project1PngDefault = parcelHelpers.interopDefault(_project1Png);
+var _project2Png = require("../assets/project2.png");
+var _project2PngDefault = parcelHelpers.interopDefault(_project2Png);
+var _project3Png = require("../assets/project3.png");
+var _project3PngDefault = parcelHelpers.interopDefault(_project3Png);
+const PROJECTS = [
+    {
+        id: 1,
+        title: "Example React Application",
+        description: "A react app that built for  js and web dev concepts",
+        link: "https://github.com/Balukompalli/ReactJsPortpolioRepo",
+        image: (0, _project1PngDefault.default)
+    },
+    {
+        id: 2,
+        title: "My Project 2",
+        description: "A react app that built for  js and web dev concepts",
+        link: "https://github.com/Balukompalli/ReactJsPortpolioRepo",
+        image: (0, _project2PngDefault.default)
+    },
+    {
+        id: 3,
+        title: "My Project3",
+        description: "A react app that built for  js and web dev concepts",
+        link: "https://github.com/Balukompalli/ReactJsPortpolioRepo",
+        image: (0, _project3PngDefault.default)
+    }, 
+];
+exports.default = PROJECTS;
+
+},{"../assets/project1.png":"cngJB","../assets/project2.png":"Rojn7","../assets/project3.png":"8zfl5","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"cngJB":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "project1.cae3be24.png" + "?" + Date.now();
+
+},{"./helpers/bundle-url":"lgJ39"}],"lgJ39":[function(require,module,exports) {
+"use strict";
+var bundleURL = {};
+function getBundleURLCached(id) {
+    var value = bundleURL[id];
+    if (!value) {
+        value = getBundleURL();
+        bundleURL[id] = value;
+    }
+    return value;
+}
+function getBundleURL() {
+    try {
+        throw new Error();
+    } catch (err) {
+        var matches = ("" + err.stack).match(/(https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/[^)\n]+/g);
+        if (matches) // The first two stack frames will be this function and getBundleURLCached.
+        // Use the 3rd one, which will be a runtime in the original bundle.
+        return getBaseURL(matches[2]);
+    }
+    return "/";
+}
+function getBaseURL(url) {
+    return ("" + url).replace(/^((?:https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/.+)\/[^/]+$/, "$1") + "/";
+} // TODO: Replace uses with `new URL(url).origin` when ie11 is no longer supported.
+function getOrigin(url) {
+    var matches = ("" + url).match(/(https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/[^/]+/);
+    if (!matches) throw new Error("Origin not found");
+    return matches[0];
+}
+exports.getBundleURL = getBundleURLCached;
+exports.getBaseURL = getBaseURL;
+exports.getOrigin = getOrigin;
+
+},{}],"Rojn7":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "project2.d47934b7.png" + "?" + Date.now();
+
+},{"./helpers/bundle-url":"lgJ39"}],"8zfl5":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "project3.104d946c.png" + "?" + Date.now();
+
+},{"./helpers/bundle-url":"lgJ39"}],"1RVkN":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$aca4 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$aca4.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _socialProfiles = require("../data/socialProfiles");
+var _socialProfilesDefault = parcelHelpers.interopDefault(_socialProfiles);
+//class to stateless function style...
+const SocialProfile = (props)=>{
+    const { link , image  } = props.socailProfile;
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+            href: link,
+            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                src: image,
+                alt: "social-profile",
+                style: {
+                    width: 30,
+                    height: 30,
+                    margin: 10
+                }
+            }, void 0, false, {
+                fileName: "src/components/SocialProfiles.js",
+                lineNumber: 11,
+                columnNumber: 6
+            }, undefined)
+        }, void 0, false, {
+            fileName: "src/components/SocialProfiles.js",
+            lineNumber: 10,
+            columnNumber: 5
+        }, undefined)
+    }, void 0, false, {
+        fileName: "src/components/SocialProfiles.js",
+        lineNumber: 9,
+        columnNumber: 4
+    }, undefined);
+};
+_c = SocialProfile;
+const SocialProfiles = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                children: " Connect with me thru below links !! "
+            }, void 0, false, {
+                fileName: "src/components/SocialProfiles.js",
+                lineNumber: 20,
+                columnNumber: 4
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                children: (0, _socialProfilesDefault.default).map((SOCIAL_PROFILE)=>{
+                    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(SocialProfile, {
+                        socailProfile: SOCIAL_PROFILE
+                    }, SOCIAL_PROFILE.id, false, {
+                        fileName: "src/components/SocialProfiles.js",
+                        lineNumber: 25,
+                        columnNumber: 13
+                    }, undefined);
+                })
+            }, void 0, false, {
+                fileName: "src/components/SocialProfiles.js",
+                lineNumber: 22,
+                columnNumber: 4
+            }, undefined)
+        ]
+    }, void 0, true, {
+        fileName: "src/components/SocialProfiles.js",
+        lineNumber: 19,
+        columnNumber: 3
+    }, undefined);
+_c1 = SocialProfiles;
+exports.default = SocialProfiles;
+var _c, _c1;
+$RefreshReg$(_c, "SocialProfile");
+$RefreshReg$(_c1, "SocialProfiles");
+
+  $parcel$ReactRefreshHelpers$aca4.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../data/socialProfiles":"9Nllp","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"9Nllp":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _emailIconPng = require("../assets/email_icon.png");
@@ -28201,11 +28245,11 @@ module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "twitte
 },{"./helpers/bundle-url":"lgJ39"}],"Ubjjs":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "profile.36203507.png" + "?" + Date.now();
 
-},{"./helpers/bundle-url":"lgJ39"}],"8uviF":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$6caf = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+},{"./helpers/bundle-url":"lgJ39"}],"6wotK":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$6418 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$6caf.prelude(module);
+$parcel$ReactRefreshHelpers$6418.prelude(module);
 
 try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
@@ -28260,7 +28304,7 @@ class Title extends (0, _react.Component) {
                 title
             ]
         }, void 0, true, {
-            fileName: "src/Title.js",
+            fileName: "src/components/Title.js",
             lineNumber: 40,
             columnNumber: 4
         }, this);
@@ -28268,11 +28312,11 @@ class Title extends (0, _react.Component) {
 }
 exports.default = Title;
 
-  $parcel$ReactRefreshHelpers$6caf.postlude(module);
+  $parcel$ReactRefreshHelpers$6418.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"irmnC":[function() {},{}]},["1xC6H","ShInH","8lqZg"], "8lqZg", "parcelRequire2041")
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}]},["1xC6H","ShInH","8lqZg"], "8lqZg", "parcelRequire2041")
 
 //# sourceMappingURL=index.975ef6c8.js.map

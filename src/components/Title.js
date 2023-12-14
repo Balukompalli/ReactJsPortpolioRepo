@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+
 const TITLES = [
 	'Software Engineer',
 	'Muzic lover',
@@ -6,7 +7,6 @@ const TITLES = [
 	'Adventure seeker',
 	'Janasainik'
 ];
-
 
 class Title extends Component {
 	state = {titleIndex: 0 ,fadeIn: true};

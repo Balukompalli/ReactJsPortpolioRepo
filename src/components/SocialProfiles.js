@@ -1,9 +1,10 @@
-import React, {Component} from "react";
-import SOCIAL_PROFILES from "./data/socialProfiles";
+import React from "react";
+import SOCIAL_PROFILES from "../data/socialProfiles";
 
-class SocialProfile extends Component {
-	render(){
-		const {link, image} = this.props.socailProfile;
+//class to stateless function style...
+const SocialProfile = props => {
+	
+		const {link, image} = props.socailProfile;
 		return (
 			<span>
 				<a href = {link}>
@@ -11,13 +12,10 @@ class SocialProfile extends Component {
 				</a>
 			</span>
 		)
-	}
+	
 }
 
-class SocialProfiles extends Component {
-	render() {
-		
-		return (
+const SocialProfiles = () => (
 		<div>
 			<h2> Connect with me thru below links !! </h2>
 			
@@ -26,13 +24,12 @@ class SocialProfiles extends Component {
 				SOCIAL_PROFILES.map(SOCIAL_PROFILE => {
 					return <SocialProfile key={SOCIAL_PROFILE.id} socailProfile={SOCIAL_PROFILE}/>
 				})
-				
 			}
 				
 			</div>
 		</div>	
 		)
-	}
-}
+	
+
 
 export default SocialProfiles;
