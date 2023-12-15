@@ -45,4 +45,5 @@ class Jokes extends Component {
 		<Header Component={Jokes}></Header>
 	)
 }*/
+
 export default Jokes;

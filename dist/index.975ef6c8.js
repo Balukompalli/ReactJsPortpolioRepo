@@ -2924,11 +2924,8 @@ root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Browser
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
                 path: "/",
                 element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _headerDefault.default), {
-                    children: [
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _appDefault.default), {}, void 0, false, void 0, void 0),
-                        " "
-                    ]
-                }, void 0, true, void 0, void 0)
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _appDefault.default), {}, void 0, false, void 0, void 0)
+                }, void 0, false, void 0, void 0)
             }, void 0, false, {
                 fileName: "src/index.js",
                 lineNumber: 17,
@@ -2937,11 +2934,8 @@ root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Browser
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
                 path: "/jokes",
                 element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _headerDefault.default), {
-                    children: [
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jokesDefault.default), {}, void 0, false, void 0, void 0),
-                        " "
-                    ]
-                }, void 0, true, void 0, void 0)
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jokesDefault.default), {}, void 0, false, void 0, void 0)
+                }, void 0, false, void 0, void 0)
             }, void 0, false, {
                 fileName: "src/index.js",
                 lineNumber: 18,
@@ -2957,64 +2951,14 @@ root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Browser
     fileName: "src/index.js",
     lineNumber: 15,
     columnNumber: 2
-}, undefined)); /*new Promise((resolve, reject) => {
-	  return reject(new Error('No bears'));
-	  
-	  setTimeout(()=> {
-	  console.log('Bears');
-	  resolve("Bears,Beets, Battlestar Galactica"); 
-   		},5000);
-    
-   })
-   .then(quote=> {
-	   setTimeout( ()=>{
-		   console.log("quote:",quote);
-	//console.log('Beets');
-    //console.log('Battlestar galacctica');
-	   },3000)
-    	   
-   })
-   .catch(error => console.log('error', error));*/  //ReactDOM.render(<App/>, document.getElementById('root'));
- /*class Animal {
-	constructor(name,age) {
-		this.name =name;
-		this.age = age;
-		
-	}
-	speak() {
-		console.log('I am ', this.name, 'am I am ',this.age,' years old');
-	}
-}
-
-const animal1 =  new Animal('Simba',3);
-animal1.speak();
-
-console.log(animal1);
-
-
-class Lion extends Animal {
-	constructor(name,age,color,speed) {
-		super(name, age);
-		this.color = color;
-		this.speed = speed;
-	}
-	roar() {
-		console.log('roar! I have ',this.color, ' and i can run ', this.speed, ' miles per hour');
-	}
-}
-
-const lion1 =  new Lion('Mufasa' , 20, 'golden', 25);
-lion1.speak();
-lion1.roar();
-console.log(lion1);
-*/ 
+}, undefined));
 
   $parcel$ReactRefreshHelpers$20e5.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-dom/client":"lOjBx","react-router-dom":"9xmpe","history":"iE5Zp","./components/App":"ey9du","./components/Jokes":"azgA9","./index.css":"irmnC","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./components/Header":"hsJbF"}],"iTorj":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-dom/client":"lOjBx","react-router-dom":"9xmpe","history":"iE5Zp","./components/App":"ey9du","./components/Jokes":"azgA9","./components/Header":"hsJbF","./index.css":"irmnC","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"iTorj":[function(require,module,exports) {
 "use strict";
 module.exports = require("./cjs/react-jsx-dev-runtime.development.js");
 
@@ -33374,7 +33318,7 @@ $RefreshReg$(_c, "Joke");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"irmnC":[function() {},{}],"hsJbF":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"hsJbF":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$bfed = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -33387,8 +33331,7 @@ var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 var _reactRouterDom = require("react-router-dom");
-const Header = (props)=>{
-    const { Component  } = props;
+const Header = ({ children  })=>{
     const style = {
         display: "inline-block",
         margin: 10,
@@ -33434,23 +33377,14 @@ const Header = (props)=>{
                 lineNumber: 14,
                 columnNumber: 4
             }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Component, {}, void 0, false, {
-                fileName: "src/components/Header.js",
-                lineNumber: 18,
-                columnNumber: 4
-            }, undefined)
+            children
         ]
     }, void 0, true, {
         fileName: "src/components/Header.js",
         lineNumber: 13,
         columnNumber: 3
     }, undefined);
-/*return (
-		<div>
-			<h3 style={style}><a href="/">Home</a></h3>
-			<h3 style={style}><a href="/jokes">Jokes</a></h3>
-		</div>
-	)*/ };
+};
 _c = Header;
 exports.default = Header;
 var _c;
@@ -33461,6 +33395,6 @@ $RefreshReg$(_c, "Header");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-router-dom":"9xmpe","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}]},["1xC6H","ShInH","8lqZg"], "8lqZg", "parcelRequire2041")
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-router-dom":"9xmpe","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"irmnC":[function() {},{}]},["1xC6H","ShInH","8lqZg"], "8lqZg", "parcelRequire2041")
 
 //# sourceMappingURL=index.975ef6c8.js.map
